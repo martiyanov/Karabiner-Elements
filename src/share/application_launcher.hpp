@@ -10,7 +10,7 @@ public:
   }
 
   static void launch_menu(void) {
-    system("open -g '/Library/Application Support/org.pqrs/Karabiner-Elements/Karabiner-Menu.app'");
+    system("open -g '/Library/Application Support/org.pqrs/Karabiner-Elements/Applications/Karabiner-Menu.app'");
   }
 
   static void kill_menu(void) {
@@ -18,7 +18,7 @@ public:
   }
 
   static void launch_notification_window(void) {
-    system("open -g '/Library/Application Support/org.pqrs/Karabiner-Elements/Karabiner-NotificationWindow.app'");
+    system("open -g '/Library/Application Support/org.pqrs/Karabiner-Elements/Applications/Karabiner-NotificationWindow.app'");
   }
 
   static void launch_preferences(void) {
