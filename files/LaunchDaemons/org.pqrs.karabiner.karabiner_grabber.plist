@@ -12,7 +12,9 @@
     <string>Interactive</string>
     <key>ProgramArguments</key>
     <array>
-      <string>/Library/Application Support/org.pqrs/Karabiner-Elements/bin/karabiner_grabber</string>
+      <string>/usr/bin/open</string>
+      <string>-W</string>
+      <string>/Library/Application Support/org.pqrs/Karabiner-Elements/Applications/karabiner_grabber.app</string>
     </array>
   </dict>
 </plist>

@@ -10,7 +10,9 @@
     <true/>
     <key>ProgramArguments</key>
     <array>
-      <string>/Library/Application Support/org.pqrs/Karabiner-Elements/bin/karabiner_observer</string>
+      <string>/usr/bin/open</string>
+      <string>-W</string>
+      <string>/Library/Application Support/org.pqrs/Karabiner-Elements/Applications/karabiner_observer.app</string>
     </array>
   </dict>
 </plist>
