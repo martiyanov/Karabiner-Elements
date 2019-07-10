@@ -19,4 +19,5 @@ target_link_libraries(
   "-framework Carbon"
   "-framework Cocoa"
   "-framework SystemConfiguration"
+  c++
 )
