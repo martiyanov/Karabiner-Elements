@@ -10,7 +10,15 @@ include_directories(
 
 add_executable(
   karabiner_grabber
+  MACOSX_BUNDLE
   src/main.cpp
+)
+
+set_target_properties(
+  karabiner_grabber
+  PROPERTIES
+  MACOSX_BUNDLE_INFO_PLIST
+  ${CMAKE_CURRENT_LIST_DIR}/Resources/Info.plist.in
 )
 
 target_link_libraries(
@@ -20,4 +28,5 @@ target_link_libraries(
   "-framework CoreServices"
   "-framework IOKit"
   "-framework SystemConfiguration"
+  c++
 )
